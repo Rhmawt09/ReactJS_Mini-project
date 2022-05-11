@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(242, 208, 160);
+    align-items: flex-start;
+    height: 70px;
+}
+
+.navbar-home {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 20px 10px;
+}
+
+.navbar-teks {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+
+.nav-logo {
+    display: contents;
+    padding: 0%;
+
+}
+
+.nav-logo-teks {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding: 0%;
+    flex-direction: column;
+    justify-content: flex-start;
+}

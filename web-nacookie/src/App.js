@@ -5,6 +5,10 @@ function App() {
   return (
     <div className="App">
       <Homepage />
+    <div className='row text-light'>
+      <div className='col-2 bg-dark'>
+      </div>
+    </div>
     </div>
   );
 }
