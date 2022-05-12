@@ -1,10 +1,13 @@
 import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom"
 import Homepage from './pages/Homepage';
 
 function App() {
   return (
     <div className="App">
-      <Homepage />
+      <Routes>
+       <Route path="/" element={<Homepage/>} />
+      </Routes>
     <div className='row text-light'>
       <div className='col-2 bg-dark'>
       </div>

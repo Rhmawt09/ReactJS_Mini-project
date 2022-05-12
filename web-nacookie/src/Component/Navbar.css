@@ -1,18 +1,10 @@
 .navbar {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     background-color: rgb(242, 208, 160);
+    opacity: 0.5;
     align-items: flex-start;
     height: 70px;
-}
-
-.navbar-home {
-    display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    font-size: medium;
-    padding: 20px 10px;
 }
 
 .navbar-teks {
@@ -29,7 +21,7 @@
 
 .nav-logo {
     display: contents;
-    padding: 0%;
+    padding: initial;
 
 }
 

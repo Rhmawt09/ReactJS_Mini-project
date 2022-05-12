@@ -1,6 +1,6 @@
-import Banner from "../Component/Banner";
-import Navbar from "../Component/Navbar";
-import Footer from "../Component/Footer";
+import Banner from '..//Component/Banner'
+import Navbar from '../Component/Navbar'
+import Footer from '../Component/Footer'
 
 
 function Homepage(){
