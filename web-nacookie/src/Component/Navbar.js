@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { MenuItems } from './MenuItems'
-import logo from '../assets/navbar/nacookie_logo.jpeg'
+import logo from '../assets/navbar/logo.png'
 
 function Navbar () {
 

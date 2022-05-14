@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Routes>
        <Route path="/" element={<Homepage/>} />
+       <Route index element={<Homepage />} />
       </Routes>
     <div className='row text-light'>
       <div className='col-2 bg-dark'>
