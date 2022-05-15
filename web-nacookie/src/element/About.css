@@ -1,0 +1,19 @@
+.container {
+    background-color:darksalmon;
+    text-align: center;
+    padding: 50px;
+
+}
+
+h2 {
+    text-align: center;
+
+}
+
+
+.about-text {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+}

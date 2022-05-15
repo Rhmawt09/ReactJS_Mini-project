@@ -1,19 +1,21 @@
 .navbar{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: sienna;
     align-items: center;
     height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-logo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     height: 70px;
-    width: 250px;
+    width: 500px;
+    padding-left: 20px;
 
 }
 
@@ -37,4 +39,29 @@
     text-decoration: none;
     align-content: space-around;
 
+}
+
+h1 {
+    display: flex;
+    padding: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-span {
+    padding: 5px;
 }
