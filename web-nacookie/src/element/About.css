@@ -1,19 +1,28 @@
 .container {
-    background-color:darksalmon;
+    background-image: url("https://i.ibb.co/kcYK42h/bg-about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
     text-align: center;
+    font-size: 18px;
     padding: 50px;
+    font-family:monospace;
+    color:aliceblue;
+    font-style:oblique;
 
 }
 
 h2 {
     text-align: center;
+    font-size: 40px;
+    color: #E3E09E;
 
 }
 
 
 .about-text {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     text-align: center;
 
 }

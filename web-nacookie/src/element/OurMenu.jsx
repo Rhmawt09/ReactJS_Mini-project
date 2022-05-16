@@ -14,7 +14,7 @@ const OurMenu = () => {
         return(
           <div>
            <Card>
-               <Image src={item.img} size='small' ui={false} />
+               <Image src={item.img} size='10px' ui={false} />
                  <Card.Content>
                   <Card.Header>{item.nama}</Card.Header>
                     <Card.Meta>
@@ -23,14 +23,14 @@ const OurMenu = () => {
                       <Card.Description>
                         {item.deskripsi}
                       </Card.Description>
-                 </Card.Content>
-               <Card.Content extra>
-                 <a>
-               <Icon name='user' />
-                 22 Friends
-                </a>
-    </Card.Content>
-  </Card>
+                  </Card.Content>
+                    <Card.Content extra>
+                     <a>
+                      <Icon name='users-nacookie' />
+                        {item.harga}
+                     </a>
+                   </Card.Content>
+           </Card>
           </div>
         )
       })}

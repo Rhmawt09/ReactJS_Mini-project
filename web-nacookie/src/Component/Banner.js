@@ -5,7 +5,7 @@ function Banner () {
     return (
         <div className='banner'>
             <div>
-                 <h3 style={{color: 'white', justifyContent: 'center', textAlign: 'center', alignItems:'center', marginTop:'250px', fontSize:'30px', cursor: 'pointer', backgroundColor: 'GrayText', position:'absolute'}}>SCROLL UP</h3>
+                 <h3 style={{color: '#E3E09E', justifyContent: 'center', textAlign: 'center', alignItems:'center', marginTop:'250px', fontSize:'30px', cursor: 'pointer', backgroundColor: '#B89B6E', position:'absolute'}}>GET STARTED</h3>
             </div>
         </div>
     )

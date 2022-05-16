@@ -1,7 +1,8 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: sienna;
+    background-color: #B89B6E;
+    opacity: 0,5%;
     align-items: center;
     height: 70px;
     position: fixed;
@@ -15,7 +16,7 @@
     align-items: center;
     height: 70px;
     width: 500px;
-    padding-left: 20px;
+    padding-left: 30px;
 
 }
 
@@ -43,7 +44,9 @@
 
 h1 {
     display: flex;
-    padding: 20px;
+    padding: 10px;
+    font-family: 'Limelight', cursive;
+    color: #E3E09E;
 }
 
 .nav-item {
@@ -63,5 +66,7 @@ ul li {
 }
 
 .menu-span {
-    padding: 5px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #E3E09E;
 }
