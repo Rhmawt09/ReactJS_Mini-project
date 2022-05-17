@@ -1,13 +1,13 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color:#CA9562 ;
+    background-color:#ca94627e ;
     opacity: 0,5%;
     align-items: center;
     height: 70px;
-    position: fixed;
     top: 0;
     width: 100%;
+
 }
 
 .navbar-logo {
@@ -44,10 +44,10 @@
 
 h1 {
     display: flex;
-    padding: 10px;
+    padding: 7px;
     font-family: 'Limelight', cursive;
     color: #E3E09E;
-    font-size: 1,5rem;
+    padding-top: 20px;
 }
 
 .nav-item {

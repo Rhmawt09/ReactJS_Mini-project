@@ -4,6 +4,7 @@ import Footer from '../Component/Footer'
 import About from '../element/About'
 import OurMenu from '../element/OurMenu'
 import Contact from '../element/Contact'
+import Review from '../element/Review'
 
 
 function Homepage(){
@@ -14,8 +15,8 @@ function Homepage(){
             <About/>
             <OurMenu/>
             <Contact/>
+            <Review/>
             <Footer />
-
         </div>
     )
 }

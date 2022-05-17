@@ -7,11 +7,11 @@
 
 h5 {
     text-align:start;
-    font-size: 50px;
     color: #644a3f;
     padding-top: 200px;
     padding-left: 40px;
-    font-family: 'MIgra Extrabold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 p {
@@ -26,11 +26,12 @@ p {
 
 .baner-start {
     background-color:#B89B6E ;
-    color:#E3E09E ;
+    color: #644a3f;
     text-align: left;
     font-size: 20px;
     cursor: pointer;
-    padding-left: 140px;
-    padding-right: 20px;
+    /* padding-left: 140px; */
+    /* padding-right: 20px; */
     position:absolute;
+    margin-left: 120px;
 }

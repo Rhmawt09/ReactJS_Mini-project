@@ -1,0 +1,58 @@
+.review-clas {
+    /* display: flex; */
+    background-color:#CA9562 ;
+    /* height: 400px; */
+    
+}
+
+/* h6 {
+    font-size: 60px;
+    font-family: 'EB Garamond', serif ;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color: sienna;
+    margin-top: 40px;
+    padding: 50px;
+    padding-top: 50px;
+} */
+
+/* h8 {
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    padding-right: 30px;
+    font-size: 13px;
+} */
+
+.rev-coment {
+    font-size: 13px;
+    font-family:'Roboto Mono', monospace;
+    color: aliceblue;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.rev-judul {
+    font-size: 40px;
+    font-family: 'EB Garamond', serif ;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+    color: sienna;
+    margin-top: 40px;
+    padding: 50px;
+    padding-top: 50px;
+}
+
+.rev-def {
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    padding-right: 30px;
+    font-size: 13px;
+    margin-top: 30px;
+    padding-top: 40px;
+}
