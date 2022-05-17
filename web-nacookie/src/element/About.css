@@ -4,11 +4,13 @@
     background-size: cover;
     height: 500px;
     text-align: center;
-    font-size: 18px;
-    padding: 50px;
+    font-size: 19px;
+    padding: 100px;
     font-family:monospace;
     color:aliceblue;
     font-style:oblique;
+    padding-top: 30px;
+    text-decoration:double;
 
 }
 
@@ -21,8 +23,10 @@ h2 {
 
 
 .about-text {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
-
+    background-color:#d8aa81;
+    opacity: 0.6;
 }
+

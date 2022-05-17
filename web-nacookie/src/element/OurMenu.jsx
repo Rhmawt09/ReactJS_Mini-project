@@ -2,6 +2,7 @@ import { useQuery } from '@apollo/client'
 import React from 'react'
 import { GETDATA } from '../app-graphql/Query'
 import { Card, Icon, Image } from 'semantic-ui-react'
+import '../element/OurMenu.css'
 
 const OurMenu = () => {
   const { error, data, loading } = useQuery(GETDATA);
@@ -9,10 +10,10 @@ const OurMenu = () => {
   if (error) return <h1>error</h1>
   console.log(data);
   return(
-    <div>
+    <div className='menu-style'>
       {data.users_Nacookie.map(item =>{
         return(
-          <div>
+          <div className='card inline-block col-2 m-2' style={{width:"18rem"}}>
            <Card>
                <Image src={item.img} size='10px' ui={false} />
                  <Card.Content>

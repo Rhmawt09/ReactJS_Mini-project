@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { ApolloProvider } from '@apollo/client';
-import { client } from './app-graphql/appolo-client'
+import { client } from './app-graphql/appolo-client';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

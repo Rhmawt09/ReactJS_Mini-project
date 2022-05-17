@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #B89B6E;
+    background-color:#CA9562 ;
     opacity: 0,5%;
     align-items: center;
     height: 70px;
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 70px;
+    height: 50px;
     width: 500px;
     padding-left: 30px;
 
@@ -47,6 +47,7 @@ h1 {
     padding: 10px;
     font-family: 'Limelight', cursive;
     color: #E3E09E;
+    font-size: 1,5rem;
 }
 
 .nav-item {
@@ -66,7 +67,12 @@ ul li {
 }
 
 .menu-span {
-    padding: 10px;
+    padding: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #E3E09E;
+    cursor: pointer;
+}
+
+.menu-span:hover {
+    color: chocolate !important;
 }

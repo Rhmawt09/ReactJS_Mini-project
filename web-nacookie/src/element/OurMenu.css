@@ -1,0 +1,8 @@
+.menu-style {
+    background-color:#CA9562;
+    display: flex;
+    font-family: 'Teko', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-position: center;
+}

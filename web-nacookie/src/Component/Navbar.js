@@ -15,9 +15,9 @@ function Navbar () {
          <div className='menu'>
            <span className='menu-span'>Home</span>
            <span className='menu-span'>About Us</span>
-           <span className='menu-span'>Our Menu</span>
-           <span className='menu-span'>Review</span>
+           <span className='menu-span'>Varian</span>
            <span className='menu-span'>Contact</span>
+           <span className='menu-span'>Review</span>
          </div>
         </div>
       </div>
