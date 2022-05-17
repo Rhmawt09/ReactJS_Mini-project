@@ -7,7 +7,7 @@ const Contact = () => {
             <div className='contact'>
                 <h6>How to Order way.</h6>
             <section>
-                <Row xs='3'>
+                <Row className='text-center' xs='3'>
                     <Col>
                         <h7>Beli di tempat</h7>
                         <p>Anda dapat membeli secara langsung dengan mendatangi stand penjualan Nacookie.</p>

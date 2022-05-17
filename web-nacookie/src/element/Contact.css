@@ -2,10 +2,11 @@
     background-color:sienna;
     /* display: flex; */
     height: 400px;
+    text-align: center;
 }
 
 h6 {
-    font-size: 40px;
+    /* font-size: 40px; */
     color: #e8bf65;
     font-family:'EB Garamond', serif ;
     font-weight:bold;
