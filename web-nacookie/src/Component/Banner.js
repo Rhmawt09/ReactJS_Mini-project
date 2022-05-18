@@ -15,7 +15,7 @@ function Banner () {
                 </p>
             <a href='#about'>
                 <div className='baner-start'>
-                    <Button>GET STARTED</Button>
+                    <Button extra style={{backgroundColor:'#644a3f'}}>GET STARTED</Button>
                 </div>
             </a>
             </div>

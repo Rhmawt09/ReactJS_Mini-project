@@ -1,6 +1,8 @@
+// import { logMissingFieldErrors } from '@apollo/client/core/ObservableQuery'
 import React from 'react'
 import './Navbar.css'
 import logo from '../assets/navbar/logo.png'
+
 
 function Navbar () {
   return (
