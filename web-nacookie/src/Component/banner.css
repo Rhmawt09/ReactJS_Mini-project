@@ -29,9 +29,17 @@ p {
     color: #644a3f;
     text-align: left;
     font-size: 20px;
+    font-weight: bolder;
     cursor: pointer;
     /* padding-left: 140px; */
     /* padding-right: 20px; */
     position:absolute;
-    margin-left: 120px;
+    margin-left: 150px;
+    height: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+Button {
+    background-color: #644a3f;
 }

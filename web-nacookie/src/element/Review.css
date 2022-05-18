@@ -1,7 +1,8 @@
 .review-clas {
     /* display: flex; */
     background-color:#CA9562 ;
-    /* height: 400px; */
+    height: 400px;
+    padding-top: 45px;
     
 }
 
@@ -37,7 +38,7 @@
 .rev-judul {
     font-size: 40px;
     font-family: 'EB Garamond', serif ;
-    font-weight:bolder;
+    font-weight:bolder !important;
     font-style: italic;
     text-align: center;
     color: sienna;

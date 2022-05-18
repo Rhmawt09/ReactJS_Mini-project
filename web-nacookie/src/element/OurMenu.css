@@ -8,11 +8,12 @@
     justify-content: center;
     padding: 30px 20px;
     font-size: medium;
+    height: 500px;
 }
 
-h9 {
+.var-judul {
     background-color:#CA9562; 
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'EB Garamond', serif ;
     font-weight: bolder;
     font-style: italic;
@@ -20,4 +21,9 @@ h9 {
     padding-top: 50px;
     color: sienna;
 
+}
+
+.var-if {
+    text-align: center;
+    justify-content: center;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Button } from 'react-bootstrap'
 import './banner.css'
 
 function Banner () {
@@ -14,7 +15,7 @@ function Banner () {
                 </p>
             <a href='#about'>
                 <div className='baner-start'>
-                    <h3>GET STARTED</h3>
+                    <Button>GET STARTED</Button>
                 </div>
             </a>
             </div>
