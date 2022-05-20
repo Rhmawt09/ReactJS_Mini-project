@@ -2,6 +2,12 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../assets/navbar/logo.png'
+import { Link } from 'react-router-dom'
+import About from '../element/About'
+import Contact from '../element/Contact'
+import OurMenu from '../element/OurMenu'
+import Review from '../element/Review'
+import Banner from './Banner'
 
 
 function Navbar () {
@@ -15,11 +21,11 @@ function Navbar () {
           </div>
             <div className='navbar-menu'> 
                 <div className='menu'>
-                  <span className='menu-span'><a href='#Home' className='menu-span'>Home</a></span>
-                  <span className='menu-span'><a href='#about'className='menu-span'>About Us</a></span>
-                  <span className='menu-span'><a href='#varian'className='menu-span'>Varian</a></span>
-                  <span className='menu-span'><a href='#contact'className='menu-span'>Order</a></span>
-                  <span className='menu-span'><a href='#review'className='menu-span'>Review</a></span>
+                  <span className='menu-span'><Link to='Home' className='menu-span'>Home</Link></span>
+                  <span className='menu-span'><Link to='about' className='menu-span'>About Us</Link></span>
+                  <span className='menu-span'><Link to='varian' className='menu-span'>Varian</Link></span>
+                  <span className='menu-span'><Link to='contact' className='menu-span'>Order</Link></span>
+                  <span className='menu-span'><Link to='review' className='menu-span'>Review</Link></span>
                 </div>
             </div>
         </div>

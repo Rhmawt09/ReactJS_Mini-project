@@ -9,7 +9,7 @@
     font-family:monospace;
     color:aliceblue;
     font-style:oblique;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     text-decoration:double;
     width: 100%;
     padding-top: 100px;
@@ -28,8 +28,15 @@ h2 {
     padding-right: 20px;
     text-align: center;
     color: #fff;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .about-transparent-box{
     background-color:rgba(216, 170, 129, .6);
+}
+
+p {
+    padding-bottom: 0px;
+    padding-top: 0px;
 }

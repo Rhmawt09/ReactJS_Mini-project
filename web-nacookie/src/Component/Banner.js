@@ -13,11 +13,15 @@ function Banner () {
                     bergizi dan kaya akan nutrisi yang baik dikonsumsi <br></br>
                     untuk menjaga program diet dan program kesehatan.
                 </p>
-            <a href='#about'>
+            <Link to='/about'>
                 <div className='baner-start'>
-                    <Button extra style={{backgroundColor:'#644a3f'}}>GET STARTED</Button>
+                    <div className='about-transparant-box'>
+                    {/* <input type="text" placeholder="Search" /> */}
+                        <button className="btn">Get Started</button>
+                    {/* <Button className='banner-start'>GET STARTED</Button> */}
+                    </div>
                 </div>
-            </a>
+            </Link>
             </div>
         </div>
     )

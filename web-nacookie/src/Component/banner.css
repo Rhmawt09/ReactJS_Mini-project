@@ -11,35 +11,38 @@ h5 {
     padding-top: 200px;
     padding-left: 40px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10px;
 
 }
 
 p {
     text-align: start;
     font-size: 20px;
-    color: aliceblue;
-    padding-top: 0%;
+    color:antiquewhite;
+    padding-top: 12px;
     padding-left: 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
+    padding-bottom: 20px;
 }
 
 .baner-start {
-    background-color:#B89B6E ;
-    color: #644a3f;
-    text-align: left;
+    background-color:#644a3f9d;
+    color: #E3E09E;
+    /* width: 60%; */
+    position: absolute;
+    margin-left: 40px;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: bold;
     cursor: pointer;
-    /* padding-left: 140px; */
-    /* padding-right: 20px; */
-    position:absolute;
-    margin-left: 150px;
-    height: 60px;
-    text-align: center;
-    padding-bottom: 10px;
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* padding-top: 20px; */
+    margin-top: 10px;
 }
 
-Button {
-    background-color: #644a3f;
-}
+/* .about-transparant-box {
+    background-color: #644a3f7c;
+} */
+
